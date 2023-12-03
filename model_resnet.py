@@ -24,4 +24,4 @@ for param in resnet50_pretrained.parameters():
 in_features=resnet50_pretrained.fc.in_features
 resnet50_pretrained.fc = nn.Linear(in_features, num_classes)
 
-print(resnet50_pretrained)
+# print(resnet50_pretrained)
