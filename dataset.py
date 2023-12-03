@@ -1,11 +1,4 @@
-# 커스텀 데이터셋 있는 파일
-
-import os
-import torch
-from torch.utils.data import Dataset
-from torchvision import transforms
-from PIL import Image
-
+from utils import *
 class TinaFaceDataset(Dataset):
     def __init__(self, sep='train'):
         super(TinaFaceDataset, self).__init__()
